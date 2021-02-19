@@ -26,3 +26,27 @@ p {
     background-color: black;
     padding: 20px;
 };
+
+.container{
+  /* width: 70%; */
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+}
+span{
+  width: 450px
+}
+
+
+.row {
+  display: flex;  /* aligns all child elements (flex items) in a row */
+  background-color: grey;
+  padding: 10px;
+  border-style: solid;
+  width: 300px;
+  height: 30px
+}
+
+.col {
+  flex: 1;        /* distributes space on the line equally among items */
+}

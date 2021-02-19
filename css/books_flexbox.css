@@ -13,7 +13,8 @@
   flex: 1;
   background-color: inherit;
   width: 1800px;
-  flex-basis: 600px
+  flex-basis: 600px;
+  padding-top: 70px
 
 }
 
@@ -28,9 +29,8 @@
 }
 
 .signature {
-  margin-left: 900px;
+  margin-left: 1200px;
 }
 
-.header, input{
-    color: white ;
-};
+.header, input, label{
+    color: white ;}

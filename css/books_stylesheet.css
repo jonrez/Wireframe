@@ -1,0 +1,66 @@
+h1 {text-align: center;
+  }
+
+body {
+  background: rgb(175, 175, 175);
+}
+
+.pic-links {
+	margin: 45px auto;
+	padding: 10px;
+	background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+.item {
+  	padding: 15px;
+  	border-radius: 3px;
+  	background: rgb(175, 175, 175);
+}
+
+p {
+  justify-content: center;
+}
+
+.button {
+    background-color: black;
+    padding: 20px;
+};
+
+#goodreads-widget {
+  font-family: georgia, serif;
+  padding: 18px 0;
+  width:575px;
+}
+#goodreads-widget h1 {
+  font-weight:normal;
+  font-size: 16px;
+  border-bottom: 1px solid #BBB596;
+  margin-bottom: 0;
+}
+#goodreads-widget a {
+  text-decoration: none;
+  color:#660;
+}
+iframe{
+  background-color: #ffffff;
+}
+#goodreads-widget a:hover { text-decoration: underline; }
+#goodreads-widget a:active {
+  color:#660;
+}
+#gr_footer {
+  width: 100%;
+  border-top: 1px solid #BBB596;
+  text-align: right;
+}
+#goodreads-widget .gr_branding{
+  color: #382110;
+  font-size: 11px;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+span{
+  width: 450px
+}
