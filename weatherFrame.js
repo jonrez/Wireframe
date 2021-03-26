@@ -30,7 +30,7 @@ function makeHtml(response, data) {
     }
     html += `<div class="row">
             <div class="col">${i}</div>
-            <div class="col">${((data.daily[i].temp.day)-273.15).toFixed(2)}</div>
+            <div class="col">${(((data.daily[i].temp.day)-273.15)*(9/5)+32).toFixed(2).toString()}&#176</div>
             <div class="col">${activity}</div>
             </div>`
 
@@ -39,9 +39,8 @@ function makeHtml(response, data) {
   console.log(data)
 }
 
-btn.addEventListener('click', () => {
+
   btn.style.display = 'none'
   fetch(`http://api.openweathermap.org/data/2.5/weather?q=${'Apex'}&appid=1fed46fccb392859a4c0fbbd0c450fed`)
   .then(data => data.json())
   .then(data => nextCall(data))
-})
