@@ -2,7 +2,7 @@ h1 {text-align: center;
   }
 
 body {
-  background: rgb(175, 175, 175);
+  background: rgb(255, 255, 255);
 }
 
 .pic-links {
@@ -23,8 +23,10 @@ p {
 }
 
 .button {
-    background-color: black;
+    background-color: #72A0C1;
     padding: 20px;
+    border-style: none;
+    color: white;
 };
 
 .container{
@@ -33,14 +35,15 @@ p {
   margin-top: 2%;
   text-align: center;
 }
-span{
-  width: 450px
-}
 
+span{
+  font-size: 17px;
+  line-height: 35px;
+}
 
 .row {
   display: flex;  /* aligns all child elements (flex items) in a row */
-  background-color: grey;
+  background-color: #B9D9EB;
   padding: 10px;
   border-style: solid;
   width: 300px;
@@ -49,4 +52,44 @@ span{
 
 .col {
   flex: 1;        /* distributes space on the line equally among items */
+}
+
+.description {
+  background-color: #F0F8FF;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 600px;
+  height: 450px
+}
+
+img{
+  border: 2px solid #B9D9EB;
+  height: 400px
+}
+
+.predictor_text {
+  background-color: #F0F8FF;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 600px;
+  height: 450px;
+  margin:auto;
+  margin-top: 50px
+}
+
+.predictor{
+  margin-right: 300px;
+  margin-left: 250px;
+  margin-top: 40px;
+  margin-bottom: 50px
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #72A0C1;
+  width: 100%;
+  color: white
 }

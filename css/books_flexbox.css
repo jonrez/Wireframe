@@ -21,16 +21,24 @@
 .header {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #72A0C1;
   position: fixed;
   top: 0;
   width: 100%;
+  padding-right: 50px;
 
 }
 
 .signature {
   margin-left: 1200px;
+  color: white
 }
 
-.header, input, label{
-    color: white ;}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #72A0C1;
+  width: 100%;
+  color: white
+}

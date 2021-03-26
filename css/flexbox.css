@@ -14,17 +14,26 @@
   background-color: inherit;
   width: 1800px;
   flex-basis: 600px
-
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #72A0C1;
   position: fixed;
   top: 0;
   width: 100%;
 
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #72A0C1;
+  width: 100%;
+  color: white
 }
 
 .signature {

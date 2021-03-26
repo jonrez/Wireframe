@@ -2,7 +2,7 @@ var header = document.querySelector(".header")
 
 header.addEventListener("mouseover", (event) => {
   var btn = event.target;
-  btn.setAttribute("style", "color:blue;")
+  btn.setAttribute("style", "color:#B9D9EB;")
 }, false);
 
 header.addEventListener("mouseout", (event) => {
